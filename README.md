@@ -12,74 +12,49 @@ Graduation project for the Professional Data Analysis Track, built on the Home C
 5. Zeinab Alaa Ali Ebrahim
 6. Alaa Ahmed Fahim Mohamed
 
-## Project Work Plan :
+### Project Work Plan :
 
-**Tools:** SQL, Power BI
-
----
-
-### Week 1: Build Data Model, Data Cleaning and Preprocessing
-
-**Tasks**
-- Data Preprocessing: explore the dataset, build a data model, then clean and preprocess the data.
-  - Inspect structure, data types, and row counts.
-  - Identify and handle missing values, duplicates, and outliers.
-  - Standardize formats and fix inconsistent or invalid values.
-  - Remove irrelevant columns and create new derived columns.
-  - Organize the data into related tables with clear keys.
-  - Document every column in a data dictionary.
+### Week 1: Data Preprocessing
+- **Tasks:**
+  - Explore the dataset (structure, data types, row counts).
+  - Drop irrelevant columns and standardize column names and data types.
 - **Tools:** SQL
+- **Deliverables:**
+  - Reduced dataset with clean column names and data types.
+  - SQL script for the preprocessing steps.
 
-**Deliverables**
-- Cleaned dataset ready for analysis.
-- Documented SQL scripts for the data model and preprocessing steps.
-
----
-
-### Week 2: Analysis Questions Phase
-
-**Tasks**
-- Determine Data Analysis Questions: define all possible analysis questions that can be answered from the dataset and would interest the organization's decision makers.
-  - Answer each question using SQL queries (aggregations, grouping, comparisons).
-  - Summarize the key insight behind each result.
+### Week 2: Data Cleaning
+- **Tasks:**
+  - Handle missing values, duplicates, outliers and invalid values.
+  - Create the derived columns needed for analysis.
 - **Tools:** SQL
+- **Deliverables:**
+  - Cleaned dataset ready for analysis.
+  - SQL script for the cleaning steps.
 
-**Deliverables**
-- Set of analysis questions that can be answered via the dataset.
-- Query results and written insights for each question.
-
----
-
-### Week 3: Forecasting Questions Phase
-
-**Tasks**
-- Determine a set of forecasting or prediction questions and answer them using the trends and patterns found in the dataset.
-  - Build a rule-based scoring or trend-based estimation in SQL from the strongest factors found in Week 2.
-  - Group results into categories (e.g., Low / Medium / High) and validate them against actual outcomes.
-  - Prepare visuals that answer each forecasting question.
+### Week 3: Data Modeling and Analysis ### Week 3: Data Modeling, Power BI Model and Overview Dashboard
+- **Tasks:**
+  - Split the cleaned data into related tables (a fact table and dimension tables) and define keys and relationships.
+  - Run quality checks (row counts, keys) and write the data dictionary.
+  - Define the analysis questions that decision makers care about.
+  - Load the data into Power BI, set up the data model and relationships, and create the measures (KPIs).
+  - Build the Overview dashboard.
 - **Tools:** SQL, Power BI
+- **Deliverables:**
+  - Final tables ready for Power BI, data dictionary, and SQL script for the data model.
+  - Set of analysis questions.
+  - Power BI data model with KPI measures.
+  - Overview dashboard.
 
-**Deliverables**
-- Scoring or estimation tables with validation results.
-- Visualizations answering the forecasting questions.
-
----
-
-### Week 4: Visualization Dashboard and Final Presentation
-
-**Tasks**
-- Build a Visualization Dashboard: build a Power BI dashboard that visualizes the answers to all analysis and forecasting questions.
-  - Connect Power BI to the data and set up relationships.
-  - Create measures (KPIs) and interactive filters.
-  - Design clear, consistent pages (overview, detailed analysis, forecasting).
-- Final Presentation: prepare a report and presentation summarizing the project work, including data preparation, analysis, forecasting, and recommendations.
-- **Tools:** SQL, Power BI
-
-**Deliverables**
-
-
-- Visualization dashboard.
-- Final report and presentation.
+### Week 4: Detailed Dashboards and Final Presentation
+- **Tasks:**
+  - Build the detailed analysis dashboards that answer the analysis questions, with interactive filters and a consistent design.
+  - Merge the dashboards into one Power BI file and test the filters.
+  - Prepare a report and presentation summarizing data preparation, analysis, dashboards, and recommendations.
+- **Tools:** Power BI
+- **Deliverables:**
+  - Power BI dashboards (Overview and detailed dashboards).
+  - Final report and presentation.
 
 ## Roles & Responsibilities :
 
