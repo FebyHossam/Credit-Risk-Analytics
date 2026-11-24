@@ -12,7 +12,7 @@ Graduation project for the Professional Data Analysis Track, built on the Home C
 5. Zeinab Alaa Ali Ebrahim
 6. Alaa Ahmed Fahim Mohamed
 
-### Project Work Plan :
+## Project Work Plan :
 
 ### Week 1: Data Preprocessing
 - **Tasks:**
@@ -31,8 +31,8 @@ Graduation project for the Professional Data Analysis Track, built on the Home C
 - **Deliverables:**
   - Cleaned dataset ready for analysis.
   - SQL script for the cleaning steps.
-
-### Week 3: Data Modeling and Analysis ### Week 3: Data Modeling, Power BI Model and Overview Dashboard
+  
+ ### Week 3: Data Modeling, Power BI Model and Overview Dashboard
 - **Tasks:**
   - Split the cleaned data into related tables (a fact table and dimension tables) and define keys and relationships.
   - Run quality checks (row counts, keys) and write the data dictionary.
@@ -71,7 +71,6 @@ Graduation project for the Professional Data Analysis Track, built on the Home C
 2. **Average Credit-to-Income Ratio**: loan amount divided by total income, compared between defaulters and non-defaulters.
 3. **Average Loan Size**: average loan amount per customer.
 4. **Average Customer Income**: average income, broken down by segment.
-5. **Model ROC-AUC**: how well the model separates defaulters from non-defaulters, reported with Precision and Recall for the default class.
 
 ## Instructor Name :
 - **Mahmoud Emad**
