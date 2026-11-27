@@ -79,3 +79,4 @@ Graduation project for the Professional Data Analysis Track, built on the Home C
 
 1. **Dataset**: [application_train.csv (Google Drive)](https://drive.google.com/file/d/1_aDmilNPefGGBukW29Dtm1mk_bHVnDqJ/view?usp=sharing)
 2. **Original source**: [Kaggle, Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv)
+3. **MetaData** : [Dictionary](https://drive.google.com/file/d/1rskbqxkc0myCEYd3m7XxoIojmTIhrdHK/view?usp=drivesdk)
